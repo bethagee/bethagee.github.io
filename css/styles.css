@@ -13,7 +13,7 @@ margin: 0;
 }
 
 header {
-background-image: url("https://i.ibb.co/r2kRPqLm/poster-event-1495774.jpg");
+background-image: url("assets/bg-1.jpg");
 background-position: center top;
 background-repeat: no-repeat;
 background-size: cover;
@@ -207,11 +207,11 @@ font-size: 1.5rem;
 list-style-type: circle;
 list-style-position: inside;
 line-height: 5rem;
-list-style: inside url("https://i.ibb.co/8pnRB28/bullet-2.png");
+list-style: inside url("assets/bullet.png");
 }
 
 .message {
-background-image: url("https://i.ibb.co/Nd5PPXtL/bg-3.jpg");
+background-image: url("assets/bg-3.jpg");
 background-position: center top;
 background-repeat: no-repeat;
 background-size: cover;
