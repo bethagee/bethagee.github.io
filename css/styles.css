@@ -1,0 +1,272 @@
+* {
+box-sizing: border-box;
+}
+
+body {
+font-family: Trebuchet, Arial, sans-serif;
+width: 100vw;
+height: 100vh;
+background: #000;
+display: grid;
+grid-auto-flow: row;
+margin: 0;
+}
+
+header {
+background-image: url("https://i.ibb.co/r2kRPqLm/poster-event-1495774.jpg");
+background-position: center top;
+background-repeat: no-repeat;
+background-size: cover;
+top: 0;
+left: 0;
+}
+
+nav {
+width: 100vw;
+background-color: #000;
+box-shadow: 0px 1px 15px #000;
+position: fixed;
+top: 0;
+left: 0;
+z-index: 1;
+}
+
+.inline-block {
+display: inline-block;
+}
+
+.wrapper {
+width: 75vw;
+margin: 0 auto;
+}
+
+.flexbox {
+display: flex;
+}
+
+.inbetween {
+justify-content: space-between;
+}
+
+.logo-block {
+position: left;
+display: flex;
+align-items: center;
+}
+
+a {
+text-decoration: none;
+}
+
+.logo-img {
+margin: 1rem;
+margin-left: 0;
+}
+
+.block {
+display: block;
+}
+
+.logo-text {
+font-size: .8rem;
+color: #5550d5;
+letter-spacing: 1rem;
+margin: auto 0;
+}
+
+.menu {
+margin: auto 0;
+}
+
+.nav-button {
+font-family: Arial;
+font-size: 16px;
+color: #fff;
+}
+
+.nav-button:not(:last-child) {
+margin-right: 1rem;
+}
+
+.nav-link {
+color: #fff;
+text-decoration: none;
+padding: 1rem;
+border-radius: 5px;
+}
+
+.nav-link:hover {
+color: #5550d5;
+border: 1px solid #5550d5;
+}
+
+.uppercase {
+text-transform: uppercase;
+}
+
+.company-block {
+text-align: left;
+padding: 25% 3rem 0 3rem;
+background: linear-gradient(to bottom, #000, transparent);
+height: 100vh;
+top: 0;
+left: 0;
+}
+
+.company-block > h1 {
+font-size: 2.5rem;
+color: #5550d5;
+}
+
+.company-block > h2 {
+font-size: 1.5rem;
+color: #fff;
+}
+
+footer {
+background: #000;
+width: 100vw;
+bottom: 0;
+left: 0;
+padding: 2rem 0;
+}
+
+.contacts-block {
+padding: 0 3rem;
+border-left: solid 1px #fff;
+height: 100%;
+margin: auto 0;
+}
+
+h3 {
+color: #fff;
+font-size: 1.5rem;
+margin-bottom: 2rem;
+}
+
+.footer-text {
+color: #fff;
+margin-bottom: 2rem;
+line-height: 1.5rem;
+}
+
+.socials {
+margin-bottom: 2rem;
+}
+
+.social-icon {
+width: 20px;
+display: inline-block;
+margin-right: 10px;
+}
+
+.social-icon:hover {
+-webkit-filter: invert(1);
+filter: invert(1);
+}
+
+.map {
+padding-left: 3rem;
+}
+
+.services {
+background: #000;
+width: 100vw;
+}
+
+.services-icons {
+margin-top: 5rem;
+margin-bottom: 8rem;
+justify-content: space-around;
+}
+
+.services-title {
+margin: 8rem auto 4rem auto;
+color: #fff;
+text-align: center;
+}
+
+.services-card-title {
+color: #fff;
+text-align: center;
+}
+
+.services-icon {
+min-width: 100px;
+max-width: 200px;
+padding: 1rem;
+}
+
+.lists {
+justify-content: space-around;
+}
+
+ul {
+color: #fff;
+font-size: 1.5rem;
+list-style-type: circle;
+list-style-position: inside;
+line-height: 5rem;
+list-style: inside url("https://i.ibb.co/8pnRB28/bullet-2.png");
+}
+
+.message {
+background-image: url("https://i.ibb.co/Nd5PPXtL/bg-3.jpg");
+background-position: center top;
+background-repeat: no-repeat;
+background-size: cover;
+}
+
+.mySlides {
+display: none;
+}
+
+.slideshow-container {
+width: 600px;
+height: 435px;
+position: relative;
+margin: 5rem 5rem 5rem 0;
+}
+
+.slider-img {
+width: 100%;
+}
+
+.slide {
+animation-duration: 2s;
+animation-name: slide;
+}
+
+.message-window {
+background: linear-gradient(to bottom, #000, transparent);
+height: 100%;
+align-items: center;
+padding: 10%;
+}
+
+.message-title {
+text-align: center;
+color: #fff;
+margin: 4rem auto;
+font-size: 1.3rem;
+}
+
+.message-text {
+color: #fff;
+font-size: 0.9rem;
+}
+
+.submit-button {
+background: #5550d5;
+border: none;
+padding: 0.5rem;
+color: #fff;
+margin-top: 1.5rem;
+text-decoration: none;
+cursor: pointer;
+font-weight: bold;
+}
+
+form {
+margin: auto;
+}
