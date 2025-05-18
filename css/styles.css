@@ -123,6 +123,117 @@ font-size: 1.5rem;
 color: #fff;
 }
 
+.services {
+background: #000;
+width: 100vw;
+}
+
+.services-icons {
+margin-top: 5rem;
+margin-bottom: 8rem;
+justify-content: space-around;
+}
+
+.services-title {
+margin: 8rem auto 4rem auto;
+color: #fff;
+text-align: center;
+}
+
+.services-card-title {
+color: #fff;
+text-align: center;
+}
+
+.services-icon {
+min-width: 100px;
+max-width: 200px;
+padding: 1rem;
+}
+
+.services-icon:hover {
+animation-name: rotate;
+animation-duration: 1s;
+}
+
+@keyframes rotate {
+  0% {
+    transform: rotate(0);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+.lists {
+justify-content: space-around;
+}
+
+ul {
+color: #fff;
+font-size: 1.5rem;
+list-style-type: circle;
+list-style-position: inside;
+line-height: 5rem;
+list-style: inside url("/assets/bullet.png");
+}
+
+.message {
+background-image: url("/assets/bg-3.jpg");
+background-position: center top;
+background-repeat: no-repeat;
+background-size: cover;
+}
+
+.mySlides {
+display: none;
+}
+
+.slideshow-container {
+width: 600px;
+height: 435px;
+position: relative;
+margin: 5rem 5rem 5rem 0;
+}
+
+.slider-img {
+width: 100%;
+}
+
+.message-window {
+background: linear-gradient(to bottom, #000, transparent);
+height: 100%;
+align-items: center;
+padding: 10%;
+}
+
+.message-title {
+text-align: center;
+color: #fff;
+margin: 4rem auto;
+font-size: 1.3rem;
+}
+
+.message-text {
+color: #fff;
+font-size: 0.9rem;
+}
+
+.submit-button {
+background: #5550d5;
+border: none;
+padding: 0.5rem;
+color: #fff;
+margin-top: 1.5rem;
+text-decoration: none;
+cursor: pointer;
+font-weight: bold;
+}
+
+form {
+margin: auto;
+}
+
 footer {
 background: #000;
 width: 100vw;
@@ -167,106 +278,4 @@ filter: invert(1);
 
 .map {
 padding-left: 3rem;
-}
-
-.services {
-background: #000;
-width: 100vw;
-}
-
-.services-icons {
-margin-top: 5rem;
-margin-bottom: 8rem;
-justify-content: space-around;
-}
-
-.services-title {
-margin: 8rem auto 4rem auto;
-color: #fff;
-text-align: center;
-}
-
-.services-card-title {
-color: #fff;
-text-align: center;
-}
-
-.services-icon {
-min-width: 100px;
-max-width: 200px;
-padding: 1rem;
-}
-
-.lists {
-justify-content: space-around;
-}
-
-ul {
-color: #fff;
-font-size: 1.5rem;
-list-style-type: circle;
-list-style-position: inside;
-line-height: 5rem;
-list-style: inside url("/assets/bullet.png");
-}
-
-.message {
-background-image: url("/assets/bg-3.jpg");
-background-position: center top;
-background-repeat: no-repeat;
-background-size: cover;
-}
-
-.mySlides {
-display: none;
-}
-
-.slideshow-container {
-width: 600px;
-height: 435px;
-position: relative;
-margin: 5rem 5rem 5rem 0;
-}
-
-.slider-img {
-width: 100%;
-}
-
-.slide {
-animation-duration: 2s;
-animation-name: slide;
-}
-
-.message-window {
-background: linear-gradient(to bottom, #000, transparent);
-height: 100%;
-align-items: center;
-padding: 10%;
-}
-
-.message-title {
-text-align: center;
-color: #fff;
-margin: 4rem auto;
-font-size: 1.3rem;
-}
-
-.message-text {
-color: #fff;
-font-size: 0.9rem;
-}
-
-.submit-button {
-background: #5550d5;
-border: none;
-padding: 0.5rem;
-color: #fff;
-margin-top: 1.5rem;
-text-decoration: none;
-cursor: pointer;
-font-weight: bold;
-}
-
-form {
-margin: auto;
 }
