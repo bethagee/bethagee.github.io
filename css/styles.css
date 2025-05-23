@@ -59,7 +59,7 @@ text-decoration: none;
 }
 
 .logo-img {
-margin: 1rem;
+margin: 1em;
 margin-left: 0;
 }
 
@@ -68,9 +68,9 @@ display: block;
 }
 
 .logo-text {
-font-size: .8rem;
+font-size: .8em;
 color: #5550d5;
-letter-spacing: 1rem;
+letter-spacing: 1em;
 margin: auto 0;
 }
 
@@ -85,13 +85,13 @@ color: #fff;
 }
 
 .nav-button:not(:last-child) {
-margin-right: 1rem;
+margin-right: 1em;
 }
 
 .nav-link {
 color: #fff;
 text-decoration: none;
-padding: 1rem;
+padding: 1em;
 border-radius: 5px;
 }
 
@@ -106,7 +106,7 @@ text-transform: uppercase;
 
 .company-block {
 text-align: left;
-padding: 25% 3rem 0 3rem;
+padding: 25% 3rem 0 3em;
 background: linear-gradient(to bottom, #000, transparent);
 height: 100vh;
 top: 0;
@@ -114,12 +114,12 @@ left: 0;
 }
 
 .company-block > h1 {
-font-size: 2.5rem;
+font-size: 2.5em;
 color: #5550d5;
 }
 
 .company-block > h2 {
-font-size: 1.5rem;
+font-size: 1.5em;
 color: #fff;
 }
 
@@ -129,8 +129,8 @@ width: 100vw;
 }
 
 .services-icons {
-margin-top: 5rem;
-margin-bottom: 8rem;
+margin-top: 5em;
+margin-bottom: 8em;
 justify-content: space-around;
 }
 
@@ -148,7 +148,7 @@ text-align: center;
 .services-icon {
 min-width: 100px;
 max-width: 200px;
-padding: 1rem;
+padding: 1em;
 }
 
 .services-icon:hover {
@@ -171,10 +171,10 @@ justify-content: space-around;
 
 ul {
 color: #fff;
-font-size: 1.5rem;
+font-size: 1.5em;
 list-style-type: circle;
 list-style-position: inside;
-line-height: 5rem;
+line-height: 5em;
 list-style: inside url("/assets/bullet.png");
 }
 
@@ -211,20 +211,20 @@ padding: 10%;
 text-align: center;
 color: #fff;
 margin: 4rem auto;
-font-size: 1.3rem;
+font-size: 1.3em;
 }
 
 .message-text {
 color: #fff;
-font-size: 0.9rem;
+font-size: 0.9em;
 }
 
 .submit-button {
 background: #5550d5;
 border: none;
-padding: 0.5rem;
+padding: 0.5em;
 color: #fff;
-margin-top: 1.5rem;
+margin-top: 1.5em;
 text-decoration: none;
 cursor: pointer;
 font-weight: bold;
@@ -243,7 +243,7 @@ padding: 2rem 0;
 }
 
 .contacts-block {
-padding: 0 3rem;
+padding: 0 3em;
 border-left: solid 1px #fff;
 height: 100%;
 margin: auto 0;
@@ -251,18 +251,18 @@ margin: auto 0;
 
 h3 {
 color: #fff;
-font-size: 1.5rem;
-margin-bottom: 2rem;
+font-size: 1.5em;
+margin-bottom: 2em;
 }
 
 .footer-text {
 color: #fff;
-margin-bottom: 2rem;
-line-height: 1.5rem;
+margin-bottom: 2em;
+line-height: 1.5em;
 }
 
 .socials {
-margin-bottom: 2rem;
+margin-bottom: 2em;
 }
 
 .social-icon {
@@ -277,5 +277,5 @@ filter: invert(1);
 }
 
 .map {
-padding-left: 3rem;
+padding-left: 3em;
 }
