@@ -279,3 +279,119 @@ filter: invert(1);
 .map {
 padding-left: 3em;
 }
+
+@media (orientation: portrait) {
+
+nav > .wrapper {
+display: block;
+justify-content: stretch;
+}
+
+.logo-block {
+display: block;
+width: 100%;
+margin: 2em auto;
+text-align: center;
+}
+
+.logo-img {
+display: none;
+}
+
+.menu {
+display: flex;
+justify-content: center;
+}
+
+header {
+background-image: linear-gradient(to bottom, #000, 75%, transparent), url("https://i.ibb.co/r2kRPqLm/poster-event-1495774.jpg");
+}
+
+.company-block {
+text-align: left;
+padding: 50% 3rem 0 3em;
+background: none;
+width: 100%;
+}
+
+.lists {
+flex-flow: column;
+justify-content: center;
+}
+
+ul {
+display: block;
+margin-block-start: 0;
+margin-block-end: 0;
+}
+
+.services-icons {
+justify-content: center;
+}
+
+.services-icon {
+display: flex;
+}
+
+.slideshow-container {
+display: none;
+}
+
+.message > wrapper {
+background-image: linear-gradient(to bottom, #000, 75%, transparent);
+}
+
+.message-window {
+background: none;
+display: flex;
+flex-flow: column;
+width: 100%;
+padding: 30% 10%;
+}
+
+.message-title {
+margin: 0;
+}
+
+form {
+margin: 0 auto;
+}
+
+footer > .wrapper {
+display: flex;
+flex-flow: column;
+}
+
+.contacts-block {
+display: flex;
+padding: 5% 0;
+border-left: none;
+border-bottom: solid 1px #fff;
+height: 100%;
+margin: auto 0;
+justify-content: space-between;
+align-items: baseline;
+}
+
+.socials {
+display: inline-block;
+}
+
+.contacts-block > h3 {
+margin-block-start: 0;
+margin-block-end: 0;
+}
+
+.footer-text {
+display: inline-block;
+margin-block-start: 0;
+margin-block-end: 0;
+padding: 0 1em;
+}
+
+.map {
+padding: 3em;
+display: flex;
+margin: auto 0;
+}
+}
