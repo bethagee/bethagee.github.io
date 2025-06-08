@@ -1,0 +1,408 @@
+/* violet color */
+@main-color: #5550d5;
+/* text color white */
+@text-color: #fff;
+/* bckgr color black */
+@background-color: #000;
+
+
+
+
+
+* {
+box-sizing: border-box;
+}
+
+body {
+font-family: Trebuchet, Arial, sans-serif;
+width: 100vw;
+height: 100vh;
+background-color: @background-color;
+display: grid;
+grid-auto-flow: row;
+margin: 0;
+}
+
+header {
+background-image: url("/assets/bg-1.jpg");
+background-position: center top;
+background-repeat: no-repeat;
+background-size: cover;
+top: 0;
+left: 0;
+}
+
+nav {
+width: 100vw;
+background-color: @background-color;
+box-shadow: 0px 1px 15px @background-color;
+position: fixed;
+top: 0;
+left: 0;
+z-index: 1;
+}
+
+.inline-block {
+display: inline-block;
+}
+
+.wrapper {
+width: 75vw;
+margin: 0 auto;
+}
+
+.flexbox {
+display: flex;
+}
+
+.inbetween {
+justify-content: space-between;
+}
+
+.logo-block {
+position: left;
+display: flex;
+align-items: center;
+}
+
+a {
+text-decoration: none;
+}
+
+.logo-img {
+margin: 1em;
+margin-left: 0;
+}
+
+.block {
+display: block;
+}
+
+.logo-text {
+font-size: .8em;
+color: @main-color;
+letter-spacing: 1em;
+margin: auto 0;
+}
+
+.menu {
+margin: auto 0;
+}
+
+.nav-button {
+font-family: Arial;
+font-size: 16px;
+color: @text-color;
+}
+
+.nav-button:not(:last-child) {
+margin-right: 1em;
+}
+
+.nav-link {
+color: @text-color;
+text-decoration: none;
+padding: 1em;
+border-radius: 5px;
+}
+
+.nav-link:hover {
+color: @main-color;
+border: 1px solid @main-color;
+}
+
+.uppercase {
+text-transform: uppercase;
+}
+
+.company-block {
+text-align: left;
+padding: 25% 3rem 0 3em;
+background: linear-gradient(to bottom, @background-color, transparent);
+height: 100vh;
+top: 0;
+left: 0;
+}
+
+.company-block > h1 {
+font-size: 2.5em;
+color: @main-color;
+}
+
+.company-block > h2 {
+font-size: 1.5em;
+color: @text-color;
+}
+
+.services {
+background: @background-color;
+width: 100vw;
+}
+
+.services-icons {
+margin-top: 5em;
+margin-bottom: 8em;
+justify-content: space-around;
+}
+
+.services-title {
+margin: 8rem auto 4rem auto;
+color: @text-color;
+text-align: center;
+}
+
+.services-card-title {
+color: @text-color;
+text-align: center;
+}
+
+.services-icon {
+min-width: 100px;
+max-width: 200px;
+padding: 1em;
+}
+
+.services-icon:hover {
+animation-name: rotate;
+animation-duration: 1s;
+}
+
+@keyframes rotate {
+  0% {
+    transform: rotate(0);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+.lists {
+justify-content: space-around;
+}
+
+ul {
+color: @text-color;
+font-size: 1.5em;
+list-style-type: circle;
+list-style-position: inside;
+line-height: 5em;
+list-style: inside url("/assets/bullet.png");
+}
+
+.message {
+background-image: url("/assets/bg-3.jpg");
+background-position: center top;
+background-repeat: no-repeat;
+background-size: cover;
+}
+
+.mySlides {
+display: none;
+}
+
+.slideshow-container {
+width: 600px;
+height: 435px;
+position: relative;
+margin: 5rem 5rem 5rem 0;
+}
+
+.slider-img {
+width: 100%;
+}
+
+.message-window {
+background: linear-gradient(to bottom, @background-color, transparent);
+height: 100%;
+align-items: center;
+padding: 10%;
+}
+
+.message-title {
+text-align: center;
+color: @text-color;
+margin: 4rem auto;
+font-size: 1.3em;
+}
+
+.message-text {
+color: @text-color;
+font-size: 0.9em;
+}
+
+.submit-button {
+background: @main-color;
+border: none;
+padding: 0.5em;
+color: @text-color;
+margin-top: 1.5em;
+text-decoration: none;
+cursor: pointer;
+font-weight: bold;
+}
+
+form {
+margin: auto;
+}
+
+footer {
+background: @background-color;
+width: 100vw;
+bottom: 0;
+left: 0;
+padding: 2rem 0;
+}
+
+.contacts-block {
+padding: 0 3em;
+border-left: solid 1px @text-color;
+height: 100%;
+margin: auto 0;
+}
+
+h3 {
+color: @text-color;
+font-size: 1.5em;
+margin-bottom: 2em;
+}
+
+.footer-text {
+color: @text-color;
+margin-bottom: 2em;
+line-height: 1.5em;
+}
+
+.socials {
+margin-bottom: 2em;
+}
+
+.social-icon {
+width: 20px;
+display: inline-block;
+margin-right: 10px;
+}
+
+.social-icon:hover {
+-webkit-filter: invert(1);
+filter: invert(1);
+}
+
+.map {
+padding-left: 3em;
+}
+
+@media (orientation: portrait) {
+
+nav > .wrapper {
+display: block;
+justify-content: stretch;
+}
+
+.logo-block {
+display: block;
+width: 100%;
+margin: 2em auto;
+text-align: center;
+}
+
+.logo-img {
+display: none;
+}
+
+.menu {
+display: flex;
+justify-content: center;
+}
+
+header {
+background-image: linear-gradient(to bottom, @background-color, 75%, transparent), url("https://i.ibb.co/r2kRPqLm/poster-event-1495774.jpg");
+}
+
+.company-block {
+text-align: left;
+padding: 50% 3rem 0 3em;
+background: none;
+width: 100%;
+}
+
+.lists {
+flex-flow: column;
+justify-content: center;
+}
+
+ul {
+display: block;
+margin-block-start: 0;
+margin-block-end: 0;
+}
+
+.services-icons {
+justify-content: center;
+}
+
+.services-icon {
+display: flex;
+}
+
+.slideshow-container {
+display: none;
+}
+
+.message > wrapper {
+background-image: linear-gradient(to bottom, @background-color, 75%, transparent);
+}
+
+.message-window {
+background: none;
+display: flex;
+flex-flow: column;
+width: 100%;
+padding: 30% 10%;
+}
+
+.message-title {
+margin: 0;
+}
+
+form {
+margin: 0 auto;
+}
+
+footer > .wrapper {
+display: flex;
+flex-flow: column;
+}
+
+.contacts-block {
+display: flex;
+padding: 5% 0;
+border-left: none;
+border-bottom: solid 1px @text-color;
+height: 100%;
+margin: auto 0;
+justify-content: space-between;
+align-items: baseline;
+}
+
+.socials {
+display: inline-block;
+}
+
+.contacts-block > h3 {
+margin-block-start: 0;
+margin-block-end: 0;
+}
+
+.footer-text {
+display: inline-block;
+margin-block-start: 0;
+margin-block-end: 0;
+padding: 0 1em;
+}
+
+.map {
+padding: 3em;
+display: flex;
+margin: auto 0;
+}
+}
