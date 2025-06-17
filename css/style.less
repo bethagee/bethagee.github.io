@@ -288,7 +288,7 @@ filter: invert(1);
 padding-left: 3em;
 }
 
-@media (orientation: portrait), (max-device-width: 1080px) {
+@media (orientation: portrait) {
 
 nav > .wrapper {
 display: block;
@@ -302,6 +302,11 @@ margin: 2em auto;
 text-align: center;
 }
 
+.logo-text {
+font-size: 2.5em;
+letter-spacing: 1.5em;
+}
+
 .logo-img {
 display: none;
 }
@@ -311,17 +316,36 @@ display: flex;
 justify-content: center;
 }
 
+.nav-button {
+font-size: 2em;
+}
+
 header {
-background-image: linear-gradient(to bottom, @background-color, 75%, transparent), url("https://i.ibb.co/r2kRPqLm/poster-event-1495774.jpg");
+background-image: linear-gradient(to bottom, @background-color, 75%, transparent), url("/assets/bg-4_v.jpg");
+height: 50vh;
+}
+
+nav {
+margin-bottom: 4em;
 }
 
 .company-block {
 text-align: left;
-padding: 50% 3rem 0 3em;
+padding: 0 3em 0 3em;
 background: none;
 width: 100%;
+margin-bottom: 4em;
+height: auto;
 }
 
+h1 {
+font-size: 3.5em;
+}
+
+h2 {
+font-size: 2.5em;
+}
+  
 .lists {
 flex-flow: column;
 justify-content: center;
@@ -331,6 +355,7 @@ ul {
 display: block;
 margin-block-start: 0;
 margin-block-end: 0;
+font-size: 1.5em;
 }
 
 .services-icons {
@@ -345,6 +370,10 @@ display: flex;
 display: none;
 }
 
+.message {
+background-image: url("/assets/bg-4_h.jpg");
+}
+  
 .message > wrapper {
 background-image: linear-gradient(to bottom, @background-color, 75%, transparent);
 }
